@@ -11,6 +11,8 @@ import ru.job4j.chess.firuges.black.BishopBlack;
 import ru.job4j.chess.firuges.black.KingBlack;
 
 public class LogicTest {
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
 
     @Ignore
     @Test
@@ -21,8 +23,6 @@ public class LogicTest {
         logic.move(Cell.C1, Cell.H6);
     }
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
 
     @Test
     public void testMoveImpossibleMoveExceptionC1toE4() throws Exception {
