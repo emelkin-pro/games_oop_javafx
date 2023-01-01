@@ -23,7 +23,6 @@ public class LogicTest {
         logic.move(Cell.C1, Cell.H6);
     }
 
-
     @Test
     public void testMoveImpossibleMoveExceptionC1toE4() throws Exception {
         Logic logic = new Logic();
