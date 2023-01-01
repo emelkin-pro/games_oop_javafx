@@ -8,6 +8,7 @@ import org.junit.Rule;
 
 import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.black.BishopBlack;
+import ru.job4j.chess.firuges.black.KingBlack;
 
 public class LogicTest {
 
